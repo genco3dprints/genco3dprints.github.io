@@ -1,36 +1,36 @@
 body, html {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  position: relative; /* Add position to help with layering */
+  z-index: 2; /* Ensures the container is above any background layer */
 }
 
 body {
-    /* Adjust the path to where your image is stored */
-    background-image: url('robot_on_table_3.webp');
-
-    /* Full screen */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* Use a fallback color in case the image doesn't load */
-    background-color: #f8f9fa;
+  background-image: url('robot_on_table_3.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
-    color: #4a4e69;
-    font-size: 2.5em;
+  color: #4a4e69;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 p {
-    color: #22223b;
-    font-size: 1.2em;
+  color: #22223b;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 2px #000000;
 }

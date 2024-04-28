@@ -5,6 +5,10 @@ body, html {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Background color for the page */
+    background-image: url('path-to-your-background-image.jpg'); /* Path to background image */
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -12,20 +16,19 @@ body, html {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 90%;
     max-width: 600px; /* Maximum width of the container */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 h1 {
     color: #333;
-    font-size: 2.5rem; /* Larger font size for the header */
+    font-size: 2.5rem;
 }
 
 p {
     color: #555;
     font-size: 1.2rem;
-    margin-bottom: 20px; /* Space below the paragraph */
+    margin-bottom: 20px;
 }
 
 .contact-info {
@@ -38,8 +41,8 @@ p {
     margin-bottom: 10px;
 }
 
-.contact-info a {
-    display: flex;
+.contact-link {
+    display: inline-flex;
     align-items: center;
     gap: 10px;
     text-decoration: none;
@@ -51,16 +54,12 @@ p {
     margin: 5px 0; /* Space between links */
 }
 
-.contact-info a:hover {
-    background-color: #e0e0e0; /* Darker on hover */
+.contact-link:hover {
+    background-color: #e0e0e0;
 }
 
-.contact-info img {
-    width: 30px; /* Set a fixed width for icons */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.contact-info a img {
+.contact-icon {
     width: 30px; /* Adjust width as needed */
-    height: auto; /* This will maintain the aspect ratio of the image */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align SVG vertically with text */
 }

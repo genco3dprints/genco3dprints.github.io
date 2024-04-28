@@ -84,29 +84,3 @@ p {
     height: auto; /* Maintain aspect ratio */
     vertical-align: middle; /* Align SVG vertically with text */
 }
-
-.address-info {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque for text readability */
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Gentle shadow for a soft 3D effect */
-}
-
-.address-info h2 {
-    color: #d14031; /* Mars-like red, not too bright */
-    margin-bottom: 10px;
-}
-
-.address-info p,
-.address-info address {
-    color: #333;
-    line-height: 1.4;
-    margin-bottom: 5px;
-    font-style: normal; /* Keep it standard for better readability */
-}
-
-address {
-    font-style: normal; /* Override the default italic style for <address> */
-}
